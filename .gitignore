@@ -1,0 +1,29 @@
+# Built artifacts
+*.class
+*.jar
+*.aar
+*.ap_
+*.apk
+*.aab
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+*.keystore
+*.jks
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Marketing (large binary files — keep separate from source)
+# marketing/*.gif
