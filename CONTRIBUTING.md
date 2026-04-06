@@ -5,7 +5,7 @@ Thank you for your interest in contributing to NeoMotion! This document outlines
 ## Getting Started
 
 1. **Fork** the repository on GitHub
-2. **Clone** your fork: `git clone https://github.com/YOUR_USERNAME/neomotion.git`
+2. **Clone** your fork: `git clone https://github.com/Ansarii/neomotion.git`
 3. Open in Android Studio Ladybug or later
 4. Run the demo app on an Android 16 (API 36) emulator or device for full feature coverage
 
