@@ -3,7 +3,7 @@
 [![API](https://img.shields.io/badge/API-26%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=26)
 [![Android 16 Ready](https://img.shields.io/badge/Android-16%20(API%2036)-00D4C8.svg?logo=android)](https://developer.android.com/about/versions/16)
 [![Compose](https://img.shields.io/badge/Compose-1.7.0%2B-blue.svg?logo=jetpackcompose)](https://developer.android.com/jetpack/compose)
-[![JitPack](https://img.shields.io/badge/JitPack-Ready-7C5CBF.svg)](https://jitpack.io)
+[![JitPack](https://jitpack.io/v/Ansarii/neomotion.svg)](https://jitpack.io/#Ansarii/neomotion)
 
 <p align="center">
   <img src="marketing/neomotion_preview.gif" alt="NeoMotion — Android 16 motion library" width="480"/>
@@ -59,16 +59,16 @@ dependencyResolutionManagement {
 ```kotlin
 dependencies {
     // Shared motion math, interpolators, and haptics
-    implementation("com.github.neoninnovationlab.neomotion:core:1.0.0")
+    implementation("com.github.Ansarii.neomotion:core:1.0.0")
     
     // Predictive back morphing transitions
-    implementation("com.github.neoninnovationlab.neomotion:morphback:1.0.0")
+    implementation("com.github.Ansarii.neomotion:morphback:1.0.0")
     
     // API 36 Notification.ProgressStyle wrappers
-    implementation("com.github.neoninnovationlab.neomotion:livejourney:1.0.0")
+    implementation("com.github.Ansarii.neomotion:livejourney:1.0.0")
     
     // Foldable and adaptive layout utilities
-    implementation("com.github.neoninnovationlab.neomotion:adaptivemotion:1.0.0")
+    implementation("com.github.Ansarii.neomotion:adaptivemotion:1.0.0")
 }
 ```
 
