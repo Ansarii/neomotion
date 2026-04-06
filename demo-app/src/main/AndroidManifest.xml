@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Required for Coil to fetch hero images from the internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Required for posting notifications (API 33+) -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!--
+        Required for Notification.ProgressStyle Live Updates (API 36).
+        Without this, canPostPromotedNotifications() returns false and we fall back
+        to a standard progress notification.
+    -->
+    <uses-permission android:name="android.permission.POST_PROMOTED_NOTIFICATIONS" />
+
+    <application
+        android:name=".NeoMotionApp"
+        android:label="NeoMotion"
+        android:icon="@mipmap/ic_launcher_neomotion"
+        android:roundIcon="@mipmap/ic_launcher_neomotion"
+        android:theme="@style/Theme.NeoMotion"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:allowBackup="false"
+        android:enableOnBackInvokedCallback="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
