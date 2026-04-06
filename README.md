@@ -5,6 +5,10 @@
 [![Compose](https://img.shields.io/badge/Compose-1.7.0%2B-blue.svg?logo=jetpackcompose)](https://developer.android.com/jetpack/compose)
 [![JitPack](https://img.shields.io/badge/JitPack-Ready-7C5CBF.svg)](https://jitpack.io)
 
+<p align="center">
+  <img src="marketing/neomotion_preview.gif" alt="NeoMotion — Android 16 motion library" width="480"/>
+</p>
+
 **NeoMotion** is a modular, production-ready Jetpack Compose library that implements advanced, platform-aligned interaction patterns for Modern Android (specifically targeting Android 16 / API 36).
 
 Instead of reinventing the wheel, NeoMotion wraps real, stable platform APIs into clean Compose-first interfaces with a premium, high-end aesthetic.
